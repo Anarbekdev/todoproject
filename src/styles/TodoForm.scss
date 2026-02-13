@@ -1,0 +1,28 @@
+.todo-form {
+    display: flex;
+    gap: 10px;
+  
+    &__input {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(35, 10, 10, 0.2);
+      padding: 10px 15px;
+      border-radius: 8px;
+      color: white;
+      outline: none;
+      
+      &:focus { border-color: #6366f1; }
+    }
+  
+    &__button {
+      background: #6366f1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      
+      &:hover { background: #4f46e5; }
+    }
+  }
+  

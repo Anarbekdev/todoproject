@@ -1,0 +1,25 @@
+.Todos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid red;
+}
+.all {
+    display: flex;
+    padding: 10px;
+    
+}
+ul {
+
+    display: flex;
+    gap: 30px;
+    font-size: 1em;
+}
+
+ul li {
+    &:hover {
+        background-color: gray;
+        border-radius: 3px;
+    }
+}
