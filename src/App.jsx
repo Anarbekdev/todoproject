@@ -1,4 +1,3 @@
-import "./styles/App.scss";
 import { TodoApp } from "./pages/TodoApp";
 
 function App() {
